@@ -1,0 +1,60 @@
+body{
+    background-color: antiquewhite;
+}
+
+form{
+    width: 50%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+h1{
+    text-align: center;
+    margin: 20px 0;
+}
+
+p{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+input[type="text"], input[type="email"], input[type="age"], select, textarea{
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+input, select, textarea, option{
+    display: block;
+    background-color: #d2a357;
+    border: 1px solid #d2a357;
+    color: white;
+}
+
+.checkbox, .radio {
+    display: inline;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+label[for="comments"]{
+    margin-top: 5px;
+}
+
+label[for="comments"], label[for="checkbox"], label[for="radio"] {
+    display: block;
+    margin-bottom: 5px;
+}
+
+button[type="submit"]{
+    width: 50%;
+    margin: 0 auto;
+    padding: 5px;
+    background-color: #4d3309;
+    color: white;
+    border: none;
+    cursor: pointer;
+    display: block;
+}
