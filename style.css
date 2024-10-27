@@ -24,12 +24,13 @@ input[type="text"], input[type="email"], input[type="age"], select, textarea{
     margin-top: 5px;
     margin-bottom: 10px;
     padding: 5px;
+    border-radius: 10px;
 }
 
 input, select, textarea, option{
     display: block;
-    background-color: #d2a357;
-    border: 1px solid #d2a357;
+    background-color: #d2a3578f;
+    border: 1px solid #d2a3579a;
     color: white;
 }
 
@@ -49,7 +50,7 @@ label[for="comments"], label[for="checkbox"], label[for="radio"] {
 }
 
 button[type="submit"]{
-    width: 50%;
+    width: 30%;
     margin: 0 auto;
     padding: 5px;
     background-color: #4d3309;
@@ -57,4 +58,5 @@ button[type="submit"]{
     border: none;
     cursor: pointer;
     display: block;
+    border-radius: 20px;
 }
